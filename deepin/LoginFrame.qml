@@ -31,7 +31,7 @@ Item {
         width: parent.width
         height: parent.height
 
-        UserAvatar {
+        /*UserAvatar {
             id: userIconRec
             anchors {
                 top: parent.top
@@ -45,7 +45,7 @@ Item {
                 root.state = "stateUser"
                 userFrame.focus = true
             }
-        }
+        }*/
 
         Glow {
             id: avatarGlow

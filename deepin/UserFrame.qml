@@ -71,7 +71,7 @@ Item {
                 currentUserName = name
             }
 
-            UserAvatar {
+            /*UserAvatar {
                 id: iconButton
                 anchors.top: parent.top
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -79,7 +79,7 @@ Item {
                 height: 100
                 source: icon
                 onClicked: item.select()
-            }
+            }*/
 
             Text {
                 id: nameText
